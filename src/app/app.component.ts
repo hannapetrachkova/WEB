@@ -13,7 +13,7 @@ export class AppComponent {
   task: MyTask = new MyTask;
 
   constructor(private http: HttpClient) {
-    this.http.get<MyTask>('https://lab3-zav-api.azurewebsites.net/').subscribe(result => {
+    this.http.get<MyTask>('https://lab3-pad-api.azurewebsites.net/').subscribe(result => {
       this.task = result;
     });
   }
