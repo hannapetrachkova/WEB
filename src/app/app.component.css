@@ -1,0 +1,20 @@
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Courier New", sans-serif;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-family: "Courier New", sans-serif;
+}
+
+hr {
+  color: navajowhite;
+  background-color: white;
+}
+
+.title {
+  background-color: navajowhite;
+}
